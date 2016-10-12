@@ -1,0 +1,27 @@
+{
+  "name": "turbo-waddle",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "linter": "eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bangsadrengur/turbo-waddle.git"
+  },
+  "author": "hemmi.hk@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bangsadrengur/turbo-waddle/issues"
+  },
+  "homepage": "https://github.com/Bangsadrengur/turbo-waddle#readme",
+  "dependencies": {
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb-base": "^8.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "x-ray": "^2.3.0"
+  }
+}
