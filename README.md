@@ -23,7 +23,7 @@ This should write a house listings to stdout.
 
 The following is a description of the expected format the house listings are written in.
 
-```json
+```
 [
   {
     "address":           String,
