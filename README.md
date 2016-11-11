@@ -36,6 +36,7 @@ The following is a description of the expected format the house listings are wri
     "description":       String,
     "open-house":        String,
     "registration-date": Date
-  }
+  },
+  ...
 ]
 ```
