@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "test": "ava",
-    "linter": "eslint index.js"
+    "linter": "eslint index.js",
+    "dev": "nodemon -x 'npm test && npm run linter'"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "x-ray": "^2.3.0"
   },
   "devDependencies": {
-    "ava": "^0.16.0"
+    "ava": "^0.16.0",
+    "nodemon": "^1.11.0"
   }
 }
