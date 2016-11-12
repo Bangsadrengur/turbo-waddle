@@ -2,11 +2,11 @@
   "name": "turbo-waddle",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node lib/index.js",
     "test": "ava",
-    "linter": "eslint index.js",
+    "linter": "eslint lib/ test/",
     "dev": "nodemon -x 'npm test && npm run linter'"
   },
   "repository": {

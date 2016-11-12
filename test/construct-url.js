@@ -13,6 +13,7 @@ test('constructing with multiple postal codes', (t) => {
   t.is(url, 'http://fasteignir.visir.is/ajaxsearch/getresults?zip=123,456&stype=sale');
 });
 
+/* eslint-disable no-unused-vars */
 test.skip('constructing with a single street name', (t) => {
 });
 
