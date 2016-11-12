@@ -26,13 +26,13 @@ The following is a description of the expected format the house listings are wri
 ```
 [
   {
-    "address":           String,
-    "post-code":         Number
+    "street":            String,
+    "postal-code":       Number
     "image":             Url,
     "price":             Number,
     "square-meters":     Number,
     "type":              String,
-    "no-rooms":          Number,
+    "no-rooms":          Number, // -1 if not provided
     "description":       String,
     "open-house":        String,
     "registration-date": Date
