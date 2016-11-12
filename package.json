@@ -3,8 +3,11 @@
   "version": "0.0.0",
   "description": "",
   "main": "lib/index.js",
+  "bin": {
+    "get-houses": "./bin/get-houses.js"
+  },
   "scripts": {
-    "start": "node lib/index.js",
+    "start": "./bin/get-houses.js",
     "test": "ava",
     "linter": "eslint lib/ test/",
     "dev": "nodemon -x 'npm test && npm run linter'"
