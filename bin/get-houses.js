@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-/* eslint-disable no-console */
-const getHousesForCriteria = require('../lib/get-houses-for-criteria');
+const execute = require('../lib/execute');
 
-getHousesForCriteria({ 'postal-codes': [220] })
+/* eslint-disable no-console */
+execute()
   .then(console.log)
   .catch(console.log);
