@@ -14,44 +14,30 @@ test('constructing with multiple postal codes', (t) => {
 });
 
 /* eslint-disable no-unused-vars */
-test.skip('constructing with a single street name', (t) => {
-});
+test.todo('constructing with a single street name');
 
-test.skip('constructing with multiple street names', (t) => {
-});
+test.todo('constructing with multiple street names');
 
-test.skip('constructing with a single minimum price', (t) => {
-});
+test.todo('constructing with a single minimum price');
 
-test.skip('constructing with multiple minimum prices', (t) => {
-});
+test.todo('constructing with multiple minimum prices');
 
-test.skip('constructing with a single maximum price', (t) => {
-});
+test.todo('constructing with a single maximum price');
 
-test.skip('constructing with multiple maximum prices', (t) => {
-});
+test.todo('constructing with multiple maximum prices');
 
-test.skip('constructing with a single minimum square meters', (t) => {
-});
+test.todo('constructing with a single minimum square meters');
 
-test.skip('constructing with multiple minimum square meters', (t) => {
-});
+test.todo('constructing with multiple minimum square meters');
 
-test.skip('constructing with a single maximum square meters', (t) => {
-});
+test.todo('constructing with a single maximum square meters');
 
-test.skip('constructing with multiple maximum square meters', (t) => {
-});
+test.todo('constructing with multiple maximum square meters');
 
-test.skip('constructing with a single minimum number of rooms', (t) => {
-});
+test.todo('constructing with a single minimum number of rooms');
 
-test.skip('constructing with multiple minimum number of rooms', (t) => {
-});
+test.todo('constructing with multiple minimum number of rooms');
 
-test.skip('constructing with a single maximum number of rooms', (t) => {
-});
+test.todo('constructing with a single maximum number of rooms');
 
-test.skip('constructing with multiple maximum number of rooms', (t) => {
-});
+test.todo('constructing with multiple maximum number of rooms');
